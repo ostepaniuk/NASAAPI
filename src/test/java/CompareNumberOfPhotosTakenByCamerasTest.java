@@ -39,7 +39,6 @@ public class CompareNumberOfPhotosTakenByCamerasTest {
             }
 
             int result = currentItem.getValue() / previousItem.getValue();
-            System.out.println(result);
 
             Assert.assertTrue("Camera " + currentItem.getKey() + " has made "
                     + result + " times more than " + previousItem.getKey(),
