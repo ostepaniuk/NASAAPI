@@ -1,3 +1,4 @@
+
 # README #
 
 A pilot test framework to retrieve and compare images from NASA API.
@@ -22,7 +23,8 @@ A pilot test framework to retrieve and compare images from NASA API.
 * To run tests with different data by new time (Mars and/or Earth time), go to CompareImagesdataTest.java, search for line 24 or 26, change constants according to required format to retrieve different data: `SOLS` for mars time, `DATE` for earth time
 * Tu run the CompareNumberOfPhotosTakenByCamerasTest test on different `SOLS` date and `CAMERA_PHOTOS_LIMIT` to change the limit of photos taken by each camera
 
-### Clariications ###
+### Clariications ### 
+* If FileNotFoundException is thrown, then search  the downloads directory for unsupported files e.g. Thumbs.db
 
 ### Contribution guidelines ###
 
